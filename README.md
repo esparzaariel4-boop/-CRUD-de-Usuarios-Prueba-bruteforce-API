@@ -36,7 +36,7 @@ sqlmodel
 Crear entorno virtual:
 ```
 python -m venv venv
-venv\\Scripts\\activate
+source .venv/bin/activate
 ```
 
 Instalar dependencias:
@@ -150,7 +150,7 @@ Solicitud:
 POST /login
 {
  "username": "admin",
- "password": "ad12"
+ "password": "abc"
 }
 ```
 
