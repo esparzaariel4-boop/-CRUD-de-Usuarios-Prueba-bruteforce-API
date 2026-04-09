@@ -38,7 +38,7 @@ next_id = 4
 failed_attempts = {}
 blocked_users = {}
 
-MAX_ATTEMPTS = 5
+MAX_ATTEMPTS = 999999
 BLOCK_TIME = 30
 
 @app.get("/")
